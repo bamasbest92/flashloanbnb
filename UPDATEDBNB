@@ -57,10 +57,8 @@ contract GetFlashLoan {
       // Repay Flashloan with Multiplier-Finance
       manager.repayLoan(loanAddress);
       
-      // Move remaining BNB profit from Contract to the contract creators wallet
-      manager.contractToWallet("BNB");
-   
- 
-      */
+      // Send all profit to borrowers wallet(walletaddtess)
+     
+     */
    }
 }
